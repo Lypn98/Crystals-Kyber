@@ -35,12 +35,13 @@ NIST標準耐量子暗号 **CRYSTALS-Kyber (ML-KEM)** の Python スクラッチ
 | Kyber1024 | 4 | Level 5 (AES-256相当) |
 
 ### ディレクトリ構成
-Kyber/
-├── kem/          # CCAKEM, KeyGen, Enc, Dec
-├── utils/        # NTT, Hash, CBD, Encode, Compress, Parse
-├── parameters/   # Kyber512 / 768 / 1024 パラメータ
-└── tests/        # pytest テストスイート
-run_tests.py      # テスト実行スクリプト
+| パス | 内容 |
+|---|---|
+| `Kyber/kem/` | CCAKEM・KeyGen・Enc・Dec |
+| `Kyber/utils/` | NTT・Hash・CBD・Encode・Compress・Parse |
+| `Kyber/parameters/` | Kyber512 / Kyber768 / Kyber1024 パラメータ |
+| `Kyber/tests/` | pytest テストスイート |
+| `run_tests.py` | テスト実行スクリプト |
 
 
 ## テスト
